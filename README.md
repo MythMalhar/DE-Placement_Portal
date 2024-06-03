@@ -14,11 +14,11 @@ This is portal for helping the TPO(Training and placement operation) coodinators
 2. Go to client folder and run "npm i" command in terminal.
 3. Go to server folder and run "npm i" commant in terminal.
 4. create a .env file in the root folder.
-5. set enviornment variables in .env file as : \n
-   MONGO = mongodb+srv://Bhavy:8nDIvEr442Qaw0zq@placement-portal.3hekduf.mongodb.net/placement-portal?retryWrites=true&w=majority
-   /nJWT_SECRET_KEY = mysecretkey
-   /nUSER = `your gmail here which has app password`
-   /nPASS = `your app password here`
+5. set enviornment variables in .env file as : <br>
+   MONGO = mongodb+srv://Bhavy:8nDIvEr442Qaw0zq@placement-portal.3hekduf.mongodb.net/placement-portal?retryWrites=true&w=majority<br>
+   JWT_SECRET_KEY = mysecretkey<br>
+   USER = `your gmail here which has app password`<br>
+   PASS = `your app password here`<br>
 
    note : use your mail account in "USER" env variable, from which you want to send mails.
            First you need to create app password to start the mail service.(of the same mail account you used)
