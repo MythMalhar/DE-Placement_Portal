@@ -1,26 +1,28 @@
 # DE-PLACEMENT_PORTAL
-## Description
-This is portal for helping the TPO(Training and placement operation) coodinators in uniform distribution. It includes various features which makes the work of TPO codrdinators more handy, quick and efficient.Purpose of making this web app is to minimize the randomness of data collection, storing and handling it manually.Rather this web app allows the coordinators to collect, see and handle the information about the students all togather at on one platform.
+## Project Overview
+Implemented a Digital Uniform Management System tailored for optimizing college uniform processes during placements. The system ensures real-time monitoring of measurements, distribution, payments, and issue resolution, streamlining administrative tasks. Its deployment enhances operational efficiency and facilitates seamless coordination, particularly during critical placement activities in the college context
 
 ## Features
 1. Table view of all the enrolled students.
-2. TPO coordinator can update or make changes in the status of students process flagpoints.
-3. students are able to raise query for uniforms.
-4. students can also track their individual status for unifroms.
+2. The TPO coordinator can update or make changes in the status of students process points.
+3. students can raise queries for uniforms.
+4. students can also track their status for uniforms.
 5. Payment includation.(in future versions).
 
 ## Installation Guide
-1. Download the code.
-2. Go to client folder and run "npm i" command in terminal.
-3. Go to server folder and run "npm i" commant in terminal.
-4. create a .env file in the root folder.
-5. set enviornment variables in .env file as : <br>
-   MONGO = mongodb+srv://Bhavy:8nDIvEr442Qaw0zq@placement-portal.3hekduf.mongodb.net/placement-portal?retryWrites=true&w=majority<br>
-   JWT_SECRET_KEY = mysecretkey<br>
-   USER = `your gmail here which has app password`<br>
-   PASS = `your app password here`<br>
 
-   note : use your mail account in "USER" env variable, from which you want to send mails.
-           First you need to create app password to start the mail service.(of the same mail account you used)
-6. Now move to server folder in terminal and run "npm start" command.
-7. Now go to client folder and run "npm start" command.
+### 1. Clone Repo.
+### 2. `cd client --> npm i`
+### 3. `cd server --> npm i`
+
+### 4. Create a .env file in the root directory.
+   MONGO = Your_MONGO_URI <br>
+   JWT_SECRET_KEY = Your_JWT_Secret_Key <br>
+   USER = your Gmail here which has the app password <br>
+   PASS = your app password here <br>
+
+   note: use your mail account in the "USER" env variable, from which you want to send mails.
+           First, you'll need to create an app password to start the mail service.
+           
+### 5. `cd server --> npm start`
+### 6. `cd client --> npm start`
