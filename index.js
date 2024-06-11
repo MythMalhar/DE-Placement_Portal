@@ -1,11 +1,11 @@
 import express from "express";
 import dotenv from "dotenv";
-import db from "./config/dbConfig.js";
-import userRoutes from "./routes/userRoutes.js";
-import authRoutes from "./routes/authRoutes.js";
-import uniformRoutes from "./routes/uniformRoutes.js";
-import messageRoutes from "./routes/messageRoutes.js";
-import mailRoutes from "./routes/mailRoutes.js";
+import db from "./server/config/dbConfig.js";
+import userRoutes from "./server/routes/userRoutes.js";
+import authRoutes from "./server/routes/authRoutes.js";
+import uniformRoutes from "./server/routes/uniformRoutes.js";
+import messageRoutes from "./server/routes/messageRoutes.js";
+import mailRoutes from "./server/routes/mailRoutes.js";
 import cors from "cors";
 import path from 'path';
 
