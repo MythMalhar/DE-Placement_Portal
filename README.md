@@ -1,5 +1,8 @@
 # DE-PLACEMENT_PORTAL
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2d71cb4c7020ba3acdb19ef89f6cab779bfa93af
 ## Project Overview
 Implemented a Digital Uniform Management System tailored for optimizing college uniform processes during placements. The system ensures real-time monitoring of measurements, distribution, payments, and issue resolution, streamlining administrative tasks. Its deployment enhances operational efficiency and facilitates seamless coordination, particularly during critical placement activities in the college context
 
@@ -22,8 +25,14 @@ Implemented a Digital Uniform Management System tailored for optimizing college 
    USER = your Gmail here which has the app password <br>
    PASS = your app password here <br>
 
+<<<<<<< HEAD
    **Note**:  use your mail account in the "USER" env variable, from which you want to send mails.
            First, you'll need to create an app password to start the mail service.
 
+=======
+   note: use your mail account in the "USER" env variable, from which you want to send mails.
+           First, you'll need to create an app password to start the mail service.
+           
+>>>>>>> 2d71cb4c7020ba3acdb19ef89f6cab779bfa93af
 ### 5. `cd server --> npm start`
 ### 6. `cd client --> npm start`
